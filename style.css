@@ -1,17 +1,21 @@
 /*
-Theme Name: Social Brothers
+Theme Name: Custom Theme
 Author: Bart Arentze
 Author URI: https://bartarentze.nl
 Version: 1.0
 */
-@import url('css/global.css');
 
+/* Global Styling */
+@import url('css/global/global.css');
 @import url('css/global/typography.css');
 @import url('css/global/buttons.css');
 
+/* Component Styling */
 @import url('css/components/header.css');
 @import url('css/components/banner.css');
 @import url('css/components/footer.css');
 
+/* Page styling */
 @import url('css/homepage.css');
 @import url('css/blog.css');
+@import url('css/page.css');

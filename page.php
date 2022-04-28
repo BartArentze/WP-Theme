@@ -12,13 +12,17 @@ if ( have_posts() ) :
 </div>
 
     	<div class="container">
-	   		<?php the_content() ?>
+	   	 	<div class="row">
+				<div class="col-xs-12 col-md-10 mx-auto">
+					<div class="content-wrap">
+						<?php the_content() ?>
+					</div>
+				</div>
+			</div>
 		</div>
 	
 	<?php endwhile;
-
-else :
-	echo '<p>There are no pages!</p>';
+	
 endif;
 
 get_footer();
