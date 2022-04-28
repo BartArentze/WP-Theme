@@ -16,6 +16,6 @@ Version: 1.0
 @import url('css/components/footer.css');
 
 /* Page styling */
-@import url('css/homepage.css');
-@import url('css/blog.css');
-@import url('css/page.css');
+@import url('css/views/homepage.css');
+@import url('css/views/blog.css');
+@import url('css/views/page.css');

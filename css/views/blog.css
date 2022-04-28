@@ -92,3 +92,9 @@ padding: 20px;
 .single-blog .sidebar h2 {
     margin-bottom: 15px !important;
 }
+
+@media (max-width: 991.98px) {
+    .single-blog .sidebar {
+        margin-bottom: 30px;
+    }
+}
