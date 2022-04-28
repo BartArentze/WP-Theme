@@ -67,3 +67,16 @@
     padding: 0 15px;
     text-decoration: none !important;
 }
+
+@media (max-width: 991.98px) {
+    .logo-img{
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .menu {
+        top: 100px;
+        width: 100%;
+        text-align: center;
+    }
+}

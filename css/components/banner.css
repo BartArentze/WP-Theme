@@ -34,3 +34,12 @@
     transform: translate(-50%, -50%);
     z-index: 3;
 }
+
+
+@media (max-width: 991.98px) {
+    .banner .title {
+        top: 80%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+}
