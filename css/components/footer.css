@@ -1,0 +1,18 @@
+.footer {
+    background-color: #262626;
+    position: absolute;
+    bottom: -82px;
+    width: 100%;
+    left: 0;
+    height: 32px;
+}
+
+.home > .footer {
+    bottom: -32px !important;
+}
+.footer .copyright-text {
+    text-align: center;
+    margin: 0 !important;
+    padding: 7.5px 0;
+    color: #ffffff;
+}
