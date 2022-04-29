@@ -178,6 +178,16 @@ if(is_user_logged_in())
 
         
 	}
+} else {
+    echo    '<div class="container">
+    <div class="row">
+        <div class="col-xs-12">
+            <div class="error-content">
+                <h2>Oeps! Je moet inloggen om een blog te kunnen plaatsen</h2>
+            </div>
+        </div>
+    </div>
+</div>';
 }
 get_footer(); 
 

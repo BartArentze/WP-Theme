@@ -3,6 +3,17 @@
     padding: 25px;
     margin-bottom: 50px;
 }
+
+.error-content {
+    background-color: white;
+    padding: 30px 0;
+    margin-bottom: 50px;
+}
+
+.error-content h2 {
+    text-align: center;
+}
+
 .form-title {
     margin-bottom: 24px;
 }
